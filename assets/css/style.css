@@ -476,7 +476,10 @@ nav .btn:hover {
         border-radius: 5px;
         margin-bottom: 0.5rem;
     }
-
+    .pricing .p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     .pricing .box {
         width: 100%;
         margin-bottom: 1rem;
@@ -489,6 +492,32 @@ nav .btn:hover {
         justify-content: center;
         align-items: center;
     }
+    .footer-copyright p{
+        font-size: 15px;
+    }
+    .double-quotes .desc{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contact-us p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .contact-us form{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .our-team .p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media(max-width:400px){
+    .login p{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
 }
 
 /* media quary */
